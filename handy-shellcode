@@ -1,0 +1,21 @@
+![image](https://user-images.githubusercontent.com/76993858/103996403-608d8e00-51cc-11eb-9a14-87a03d51987b.png)
+
+Bài này thì khá dễ, chỉ cần mình tìm shellcode và gởi vào nó thôi. Liệu có dễ như vậy hông. Mình đọc source code nó nhé.
+Sau khi mình đọc file source thì bài này không phải chỉ tìm 1 shellcode đại để  thực thi là xong.
+
+![image](https://user-images.githubusercontent.com/76993858/103996705-d2fe6e00-51cc-11eb-9468-b736115d313b.png)
+
+Mà chúng ta phải tìm 1 shellcode thật phù hợp với yêu cầu của đề bài. Vì bài này chống thực thi /bin/sh 
+
+Hướng giải bài này thì mình sẽ setupuid(0) trở về mặc định rồi sau đó là shellcode.
+
+Và nó đc tích sẵn trong 1 shellcode mình tìm được trên shell-storm online nha
+
+Đây là file exploit!!!
+
+ 
+![image](https://user-images.githubusercontent.com/76993858/103997211-62a41c80-51cd-11eb-934d-1b25ac25fac4.png)
+
+Sau khi thực thi thi mình đã lên được shell. Tadaaaaaa
+
+![image](https://user-images.githubusercontent.com/76993858/103998546-b4997200-51ce-11eb-8c49-042d59579863.png)
